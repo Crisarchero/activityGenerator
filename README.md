@@ -1,2 +1,2 @@
 # activityGenerator
- An acitivy generator using an API.
+ An acitivy generator that uses the Bored API.
