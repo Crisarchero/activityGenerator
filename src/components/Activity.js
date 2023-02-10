@@ -12,8 +12,10 @@ export default class Activity extends React.Component{
                     alignItems:'center', 
                     justifyContent:'center'
                 }}>
-                  
+                  <p>
+
                  {this.props.data}
+                  </p>
             </div>
     }
 }

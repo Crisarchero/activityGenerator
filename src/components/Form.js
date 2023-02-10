@@ -22,7 +22,7 @@ export default class Form extends React.Component{
     
     handleSelectChange(event){
         let activityType = event.target.value
-        if(activityType == "any"){
+        if(activityType === "any"){
             this.setState({url:'https://www.boredapi.com/api/activity/'})
             console.log("Set activity to any.")
         } 
@@ -36,12 +36,12 @@ export default class Form extends React.Component{
     render(){
         return <div>
 
-                    <h1>Activity Generator</h1> 
-                    <h3 style = {{color:'#0047AB'}}>Powered by Bored API.</h3>
+                    <h1 style = {{color:'#311b92'}}>Activity Generator</h1> 
+                    <h2 style = {{color:'#616161'}}>Powered by Bored API.</h2>
                     <div>
                         <FormControl fullWidth>
-                            <InputLabel id = "activity-label">Activity Type</InputLabel>
-                            <Select sx = {{p:1}} labelId ="activity-label" label ="Activity Type" onChange={this.handleSelectChange} size = "small">
+                            <InputLabel style = {{'font-size':'1.2rem',}} id = "activity-label">Activity Type</InputLabel>
+                            <Select style = {{'font-size':'1.2rem',}} sx = {{p:1}} labelId ="activity-label" label ="Activity Type" onChange={this.handleSelectChange} size = "small">
                                 <MenuItem value={"any"}>Any</MenuItem>
                                 <MenuItem value={"education"}>Education</MenuItem>
                                 <MenuItem value={"recreational"}>Recreational</MenuItem>
@@ -55,7 +55,7 @@ export default class Form extends React.Component{
                             </Select>
                             
                             
-                            <Button onClick = {this.handleDataFetch} sx = {{mt:5,}} variant="contained">Generate</Button>
+                            <Button style = {{'font-size':'1.2rem',}} onClick = {this.handleDataFetch} sx = {{mt:5,}} variant="contained">Generate</Button>
         
                         
                         </FormControl>
