@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7ec5d8b2e57002b1384c",
-    "url": "/activityGenerator/static/css/main.1e5793b4.chunk.css"
+    "revision": "ef75a448e87ff03ea951",
+    "url": "/activityGenerator/static/css/main.af6cb400.chunk.css"
   },
   {
-    "revision": "7ec5d8b2e57002b1384c",
-    "url": "/activityGenerator/static/js/main.7ec5d8b2.chunk.js"
+    "revision": "ef75a448e87ff03ea951",
+    "url": "/activityGenerator/static/js/main.ef75a448.chunk.js"
   },
   {
     "revision": "4d80f5d4461cadf88fea",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/activityGenerator/static/media/waves.afbfbe44.mp4"
   },
   {
-    "revision": "41bc5131d2f98432f6e8fae0f918c734",
+    "revision": "947267c37ea9847ee8b297fecd68c091",
     "url": "/activityGenerator/index.html"
   }
 ];
